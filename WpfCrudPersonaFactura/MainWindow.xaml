@@ -1,0 +1,28 @@
+﻿<Window x:Class="WpfCrudPersonaFactura.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfCrudPersonaFactura"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="650" Width="800">
+    <Grid Height="NaN" Width="NaN" Margin="0,-17,0,-16">
+        <Image HorizontalAlignment="Left" Name="img" Height="156" Margin="44,0,0,0" VerticalAlignment="Center" Width="268" Source="/WpfCrudPersonaFactura;component/images/logo.png"/>
+
+
+        <Label Content="Nombre" HorizontalAlignment="Left" Height="31" Margin="468,40,0,0" VerticalAlignment="Top" Width="161"/>
+
+        <Label Content="Apellido Paterno" HorizontalAlignment="Left" Height="30" Margin="468,140,0,0" VerticalAlignment="Top" Width="161"/>
+
+        <Label Content="Apellido Materno" HorizontalAlignment="Left" Height="30" Margin="468,240,0,0" VerticalAlignment="Top" Width="161"/>
+
+        <Label Content="Identificación" HorizontalAlignment="Left" Height="30" Margin="468,340,0,0" VerticalAlignment="Top" Width="161"/>
+        <TextBox HorizontalAlignment="Left" Name="txtNombre" Height="31" Margin="468,71,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="295"/>
+        <TextBox HorizontalAlignment="Left" Name="txtApellidoPaterno" Height="42" Margin="468,175,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="295"/>
+        <TextBox HorizontalAlignment="Left" Name="txtApellidoMaterno" Height="39" Margin="468,275,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="295"/>
+        <TextBox HorizontalAlignment="Left" Name="txtidentificacion" Height="49" Margin="468,375,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="295"/>
+        <Button Content="Enviar" Name="btnEnviar" HorizontalAlignment="Left" Height="70" Margin="454,500,0,0" VerticalAlignment="Top" Width="309" Click="btnEnviar_Click"/>
+
+
+    </Grid>
+</Window>

@@ -1,0 +1,10 @@
+﻿################################################################################
+# Este archivo .gitignore ha sido creado automáticamente por Microsoft(R) Visual Studio.
+################################################################################
+
+/.vs/SolnTestSoftwareDeveloper.IGS/CopilotIndices/17.14.1091.29919
+/.vs/SolnTestSoftwareDeveloper.IGS
+/TestSoftwareDeveloper/bin/Debug/net6.0
+/TestSoftwareDeveloper/obj
+/WpfCrudPersonaFactura/bin/Debug/net6.0-windows
+/WpfCrudPersonaFactura/obj
